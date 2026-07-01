@@ -1,0 +1,83 @@
+{
+  "table": "contacts",
+  "columns": [
+    {
+      "name": "id",
+      "type": "uuid",
+      "pk": true,
+      "check_constraint": null,
+      "nullable": false
+    },
+    {
+      "name": "first_name",
+      "type": "TEXT",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": true
+    },
+    {
+      "name": "last_name",
+      "type": "TEXT",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": true
+    },
+    {
+      "name": "email",
+      "type": "TEXT",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": true
+    },
+    {
+      "name": "phone",
+      "type": "TEXT",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": true
+    },
+    {
+      "name": "title",
+      "type": "TEXT",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": true
+    },
+    {
+      "name": "company_id",
+      "type": "UUID",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": false
+    },
+    {
+      "name": "owner_id",
+      "type": "UUID",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": false
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMPTZ",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": true
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMPTZ",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": true
+    },
+    {
+      "name": "hubspot_contact_id",
+      "type": "TEXT",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": false
+    }
+  ],
+  "rows": []
+}

@@ -1,0 +1,83 @@
+{
+  "table": "leads",
+  "columns": [
+    {
+      "name": "id",
+      "type": "UUID",
+      "pk": true,
+      "check_constraint": null,
+      "nullable": false
+    },
+    {
+      "name": "title",
+      "type": "TEXT",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": true
+    },
+    {
+      "name": "status",
+      "type": "TEXT",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": true
+    },
+    {
+      "name": "value",
+      "type": "NUMERIC(12,2)",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": true
+    },
+    {
+      "name": "contact_id",
+      "type": "UUID",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": false
+    },
+    {
+      "name": "company_id",
+      "type": "UUID",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": false
+    },
+    {
+      "name": "owner_id",
+      "type": "UUID",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": false
+    },
+    {
+      "name": "assigned_at",
+      "type": "TIMESTAMPTZ",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": true
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMPTZ",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": true
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMPTZ",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": true
+    },
+    {
+      "name": "hubspot_deal_id",
+      "type": "TEXT",
+      "pk": false,
+      "check_constraint": null,
+      "nullable": false
+    }
+  ],
+  "rows": []
+}
